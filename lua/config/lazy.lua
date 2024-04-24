@@ -18,6 +18,7 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.ui.edgy" }, -- widget layerout manger
     { import = "lazyvim.plugins.extras.editor.aerial" }, -- symbol navigation
+    { import = "lazyvim.plugins.extras.lang.rust" },
     { import = "plugins" },
   },
   defaults = {
